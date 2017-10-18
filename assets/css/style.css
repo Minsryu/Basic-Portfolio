@@ -1,0 +1,121 @@
+*{
+	padding:auto;
+	margin:auto;
+	box-sizing: border-box;;
+}
+
+.container {
+	width: 960px;
+}
+
+
+
+.navi {
+	margin:0 auto;
+	overflow: auto;
+	background-color: lightgrey;
+	border-bottom: 2px solid;
+	border-bottom-color:grey;
+
+}
+
+header {
+	float: left;
+	font-size: 30px;
+	background-color: grey;
+	position: relative; 
+	padding: 21px;
+}
+
+menu {
+	float: right;
+	padding: 30px 0px;
+}
+
+menu li {
+	display: inline;
+}
+
+li {
+	text-align: left;
+	padding: 0px 20px;
+}
+
+li+li { 
+	border-left: 1px solid #000000;
+ }
+
+#background{
+	padding: 20px;
+	background-image: url("../images/background-pattern.jpg");
+	overflow: auto;
+}
+
+/* Control Main Content Box*/
+#content{
+	width:650px;
+	background-color: white;
+	padding: 20px;
+	float: left;
+	border: 1px solid;
+	border-color: grey;
+}
+
+
+.profile {
+	width: 200px;
+	height: 200px;
+	float:left;
+	margin-right: 20px ;
+
+}
+h1 {
+	font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+hr {
+	margin: 20px 0px;
+}
+
+.main-line{
+	border-width: 2px;
+}
+
+.side-line{
+	border-width: 1px;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	margin: 10px;
+}
+
+#sidebar {
+
+	width:270px;
+	background-color: white;
+	padding: 20px;
+	float: right;
+	border: 1px solid;
+	border-color: grey;
+
+}
+
+footer{
+	clear:both;
+	text-align: center;
+	padding:40px;
+	background-color: grey;
+	border-top: 5px solid;
+	border-top-color: green;
+}
