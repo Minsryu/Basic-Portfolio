@@ -12,7 +12,6 @@
 
 
 .navi {
-	margin:0 auto;
 	overflow: auto;
 	background-color: #ffffff;
 	border-bottom: 2px solid;
@@ -21,6 +20,7 @@
 }
 
 header {
+
 	float: left;
 	font-size: 30px;
 	background-color: #4aaaa5;
@@ -61,7 +61,7 @@ li+li {
  }
 
 #background{
-	padding: 20px;
+	padding: 20px 0;
 	background-image: url("../images/background-pattern.jpg");
 	background-position: center;
 	overflow: auto;
@@ -91,7 +91,7 @@ h1 {
 }
 
 h2 {
-	font-size: 251px;
+	font-size: 25px;
 	color:#4aaaa5;
 }
 
@@ -114,9 +114,9 @@ hr {
 }
 
 .icon {
-	width: 50px;
-	height: 50px;
-	margin: 10px;
+	width: 60px;
+	height: 60px;
+	margin: 5px;
 }
 
 #sidebar {
