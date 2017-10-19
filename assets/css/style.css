@@ -1,7 +1,7 @@
 *{
 	
 	margin:0 auto;
-	box-sizing: border-box;;
+	box-sizing: border-box;
 }
 
 .container {
@@ -29,7 +29,7 @@ header {
 	padding: 22px;
 }
 
-header, h1, h2 {
+header, h1, h2, h3 {
 	font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
@@ -40,9 +40,12 @@ menu, p {
 menu {
 	float: right;
 	padding: 30px 0px;
-	color: #777777;
 }
 
+a{
+	color: #777777;
+	text-decoration: none;
+}
 menu li {
 	display: inline;
 }
@@ -54,6 +57,7 @@ li {
 
 li+li { 
 	border-left: 1px solid #000000;
+	border-color: lightgrey;
  }
 
  li:last-child {
@@ -65,6 +69,7 @@ li+li {
 	background-image: url("../images/background-pattern.jpg");
 	background-position: center;
 	overflow: auto;
+	height: 100%;
 }
 
 /* Control Main Content Box*/
@@ -137,6 +142,6 @@ footer{
 	background-color: #666666;
 	border-top: 10px solid;
 	border-top-color: #4aaaa5;
-	color: #777777;
+	color: lightgrey;
 
 }
